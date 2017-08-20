@@ -13,7 +13,7 @@ namespace My_EMGU_Program
         {
             InitializeComponent();
         }
-
+        #region BUTTON CLICK
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog Openfile = new OpenFileDialog();
@@ -26,5 +26,6 @@ namespace My_EMGU_Program
                 pictureBox1.Image = My_Image.ToBitmap();
             }
         }
+#endregion
     }
 }
